@@ -24,7 +24,8 @@ class App extends Composer
     {
         return [
             'siteName' => $this->siteName(),
-            'theme_general_settings' => $this->theme_general_settings()
+            'theme_general_settings' => $this->theme_general_settings(),
+            'home_page' => $this->home_page()
         ];
     }
 
@@ -57,6 +58,20 @@ class App extends Composer
             'phone' => $phone,
             'instagram' => $instagram,
             'facebook' => $facebook
+        );
+    }
+
+    /**
+     * Returns the home page custom fields
+     *
+     * @return object
+     */
+
+    public function home_page()
+    {
+        $description = get_field('description');
+        return (object)array(
+            'description' => $description
         );
     }
 }

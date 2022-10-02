@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="md:ml-auto">
-      <a href="{{$theme_general_settings->instagram}}">Instagram</a>, <a href="{{$theme_general_settings->facebook}}">Facebook</a>
+      <a href="{{$theme_general_settings->instagram}}" target="_blank">Instagram</a>, <a href="{{$theme_general_settings->facebook}}" target="_blank">Facebook</a>
     </div>
   </div>
 </footer>
