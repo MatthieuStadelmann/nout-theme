@@ -1158,9 +1158,9 @@
       "customFontSize": false,
       "fontFamilies": [
         {
-          "name": "ui-sans-serif",
+          "name": "AntarcticaBeta-Regular",
           "slug": "sans",
-          "fontFamily": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\""
+          "fontFamily": "AntarcticaBeta-Regular"
         },
         {
           "name": "ui-serif",
@@ -1171,6 +1171,11 @@
           "name": "ui-monospace",
           "slug": "mono",
           "fontFamily": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace"
+        },
+        {
+          "name": "AntarcticaBeta-Medium",
+          "slug": "bold",
+          "fontFamily": "AntarcticaBeta-Medium"
         }
       ],
       "fontSizes": [

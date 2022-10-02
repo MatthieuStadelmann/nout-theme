@@ -4,6 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {}, // Extend Tailwind's default colors
+      fontFamily: {
+        bold: ['AntarcticaBeta-Medium'],
+        sans: ['AntarcticaBeta-Regular'],
+      },
     },
   },
   plugins: [],
