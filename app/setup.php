@@ -150,3 +150,11 @@ if (function_exists('acf_add_options_page')) {
         'redirect' => false
     ));
 }
+
+
+add_filter('nav_menu_css_class', function ($classes, $item, $args) {
+    if ($args->theme_location == 'primary_navigation') {
+        $classes[] = 'pl-2';
+    }
+    return $classes;
+}, 1, 3);
