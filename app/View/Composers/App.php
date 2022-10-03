@@ -70,8 +70,16 @@ class App extends Composer
     public function home_page()
     {
         $description = get_field('description');
+        $artists = get_posts(array(
+            'posts_per_page' => -1,
+            'post_type' => 'artist'
+        ));
+
+
         return (object)array(
-            'description' => $description
+            'description' => $description,
+            'artists' => $artists
         );
     }
+
 }
