@@ -5,8 +5,8 @@
 @extends('layouts.app')
 
 @section('content')
-  <div class="md:px-32 mb-10">
-    <h2 class="text-5xl">
+  <div class="flex justify-center mb-10">
+    <h2 class="text-5xl w-4/5">
       {{$home_page->description}}
     </h2>
   </div>
